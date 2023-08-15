@@ -130,6 +130,8 @@ public class WfTaskServiceImpl implements IWfTaskService {
             .processDefinitionId(task.getProcessDefinitionId())
             .singleResult();
 
+        // 设置当前人为审批人
+        taskService.setAssignee(taskBo.getTaskId(), TaskUtils.getUserId());
         // 添加审批意见
         taskService.addComment(taskBo.getTaskId(), taskBo.getProcInsId(), FlowComment.REJECT.getType(), taskBo.getComment());
         // 设置流程状态为已终结
