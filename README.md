@@ -12,6 +12,9 @@
 - 采用`MIT开源协议`，完全免费给个人及企业使用。
 - 项目处于开发阶段，工作流流程还存在不足。因此，目前仅推荐用于学习、毕业设计等个人使用。
 
+## 赞助商
+[![驰骋低代码Logo](http://qiniu-flowable.konbai.work/chicheng-logo.png)](http://ccflow.org/?frm=KonBAI)
+
 ## 参考文档
 - 项目文档：[RuoYi-Flowable-Plus开发文档](http://rfp-doc.konbai.work)
 - 脚手架文档：[RuoYi-Vue-Plus文档](https://gitee.com/dromara/RuoYi-Vue-Plus/wikis/pages)
