@@ -24,7 +24,7 @@ public class WfTaskController {
     private final IWfTaskService flowTaskService;
 
     /**
-     * 取消申请
+     * 取消流程
      */
     @PostMapping(value = "/stopProcess")
     @SaCheckPermission("workflow:process:cancel")
