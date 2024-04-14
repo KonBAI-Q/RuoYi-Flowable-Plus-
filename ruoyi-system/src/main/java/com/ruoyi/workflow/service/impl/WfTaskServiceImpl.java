@@ -380,8 +380,8 @@ public class WfTaskServiceImpl extends FlowServiceFactory implements IWfTaskServ
      */
     @Override
     public void stopProcess(WfTaskBo bo) {
-        List<Task> task = taskService.createTaskQuery().processInstanceId(bo.getProcInsId()).list();
-        if (CollectionUtils.isEmpty(task)) {
+        List<Task> taskList = taskService.createTaskQuery().processInstanceId(bo.getProcInsId()).list();
+        if (CollectionUtils.isEmpty(taskList)) {
             throw new RuntimeException("流程未启动或已执行完成，取消申请失败");
         }
 
@@ -393,8 +393,10 @@ public class WfTaskServiceImpl extends FlowServiceFactory implements IWfTaskServ
             List<EndEvent> endNodes = process.findFlowElementsOfType(EndEvent.class, false);
             if (CollectionUtils.isNotEmpty(endNodes)) {
                 Authentication.setAuthenticatedUserId(TaskUtils.getUserId());
-//                taskService.addComment(task.getId(), processInstance.getProcessInstanceId(), FlowComment.STOP.getType(),
-//                        StringUtils.isBlank(flowTaskVo.getComment()) ? "取消申请" : flowTaskVo.getComment());
+                runtimeService.setVariable(processInstance.getId(), ProcessConstants.PROCESS_STATUS_KEY, ProcessStatus.CANCELED.getStatus());
+                for (Task task : taskList) {
+                    taskService.addComment(task.getId(), processInstance.getProcessInstanceId(), FlowComment.STOP.getType(), "取消流程");
+                }
                 // 获取当前流程最后一个节点
                 String endId = endNodes.get(0).getId();
                 List<Execution> executions = runtimeService.createExecutionQuery()
