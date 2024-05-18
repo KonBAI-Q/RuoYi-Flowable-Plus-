@@ -13,10 +13,11 @@
 - 项目处于开发阶段，工作流流程还存在不足。因此，目前仅推荐用于学习、毕业设计等个人使用。
 
 ## 赞助商
-[![驰骋低代码Logo](http://qiniu-flowable.konbai.work/chicheng-logo.png)](http://ccflow.org/?frm=KonBAI)
+[![驰骋BPM](https://gitee.com/KonBAI-Q/ruoyi-flowable-plus-vuepress/raw/master/imgs/chicheng-logo.png)](http://ccflow.org/?frm=KonBAI)
 
 ## 参考文档
 - 项目文档：[RuoYi-Flowable-Plus开发文档](http://rfp-doc.konbai.work)
+- 项目文档(备用)：[RuoYi-Flowable-Plus开发文档](http://159.75.158.189:81/)
 - 脚手架文档：[RuoYi-Vue-Plus文档](https://gitee.com/dromara/RuoYi-Vue-Plus/wikis/pages)
 
 ## 项目地址
@@ -38,9 +39,9 @@
 
 ## 技术交流群
 
-交流1群 [![加入QQ群](https://img.shields.io/badge/QQ群-1007207992-blue.svg?style=flat)](https://jq.qq.com/?_wv=1027\&k=PYDZa1tA) 🈵️</br>
-交流2群 [![加入QQ群](https://img.shields.io/badge/QQ群-725502135-blue.svg?style=flat)](https://jq.qq.com/?_wv=1027&k=J4zeZaKo) </br>
-交流3群 [![加入QQ群](https://img.shields.io/badge/QQ群-860980043-blue.svg?style=flat)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=NfqIsFMASOvIC6yHYwY6bnaSfdgcD1La&authKey=SeFDA4oFkb%2FkdvnI%2FJ3aJTJZkyzDaz8v8gybpzUATAilnKSCmyKhCE6R2jkXc5e2&noverify=0&group_code=860980043) </br>
+交流1群 🈵️ [![加入QQ群](https://img.shields.io/badge/QQ群-1007207992-blue.svg?style=flat)](https://jq.qq.com/?_wv=1027\&k=PYDZa1tA) </br>
+交流2群 🈵️ [![加入QQ群](https://img.shields.io/badge/QQ群-725502135-blue.svg?style=flat)](https://jq.qq.com/?_wv=1027&k=J4zeZaKo) </br>
+交流3群 🈵️ [![加入QQ群](https://img.shields.io/badge/QQ群-860980043-blue.svg?style=flat)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=NfqIsFMASOvIC6yHYwY6bnaSfdgcD1La&authKey=SeFDA4oFkb%2FkdvnI%2FJ3aJTJZkyzDaz8v8gybpzUATAilnKSCmyKhCE6R2jkXc5e2&noverify=0&group_code=860980043) </br>
 交流4群 [![加入QQ群](https://img.shields.io/badge/QQ群-683510042-blue.svg?style=flat)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=RBXhJKfZT0GSjEPa0CcViGmP_mnVE82j&authKey=J9shEDSoCujDRJO9wcpqzsbvCQskcEvo0idGd54I0uk735K90HhA0v5ywEkUdxK3&noverify=0&group_code=683510042) </br>
 
 ## 参与开源
@@ -59,6 +60,10 @@
 ## 友情链接
 - [玩转RuoYi-Cloud-Plus - Flowable基础](https://blog.csdn.net/zhaozhiqiang1981/article/details/129240406)：文档包含Flowable基础知识、项目使用说明、源码解析等。（新人必看）
 - [基于若依的Flowable工作流实战](https://space.bilibili.com/400188320/channel/collectiondetail?sid=1002899)：Flowable视频学习专栏，项目基本覆盖了Flowable的方方面面，也拓展了很多为了达到生产级别项目而附加的表结构，工具类等知识点！
+
+## 推荐图书
+大家在使用本项目时，推荐结合贺波老师的书[《深入Activiti流程引擎：核心原理与高阶实战》](https://item.m.jd.com/product/13928958.html?gx=RnAomTM2bmCImZxDqYAkVCoIHuIYVqc)，这本书对系统学习和深入掌握Activiti/Flowable的用法非常有帮助。
+![深入Activiti流程引擎：核心原理与高阶实战](https://gitee.com/KonBAI-Q/ruoyi-flowable-plus-vuepress/raw/master/imgs/深入Activiti流程引擎cover.jpg)
 
 ## 演示图例
 <table style="width:100%; text-align:center">
