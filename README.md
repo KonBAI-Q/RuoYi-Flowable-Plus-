@@ -13,10 +13,11 @@
 - 项目处于开发阶段，工作流流程还存在不足。因此，目前仅推荐用于学习、毕业设计等个人使用。
 
 ## 赞助商
-[![驰骋低代码Logo](http://qiniu-flowable.konbai.work/chicheng-logo.png)](http://ccflow.org/?frm=KonBAI)
+[![驰骋BPM](https://gitee.com/KonBAI-Q/ruoyi-flowable-plus-vuepress/raw/master/imgs/chicheng-logo.png)](http://ccflow.org/?frm=KonBAI)
 
 ## 参考文档
 - 项目文档：[RuoYi-Flowable-Plus开发文档](http://rfp-doc.konbai.work)
+- 项目文档(备用)：[RuoYi-Flowable-Plus开发文档](http://159.75.158.189:81/)
 - 脚手架文档：[RuoYi-Vue-Plus文档](https://gitee.com/dromara/RuoYi-Vue-Plus/wikis/pages)
 
 ## 项目地址
@@ -61,8 +62,7 @@
 
 ## 推荐图书
 大家在使用本项目时，推荐结合贺波老师的书[《深入Activiti流程引擎：核心原理与高阶实战》](https://item.m.jd.com/product/13928958.html?gx=RnAomTM2bmCImZxDqYAkVCoIHuIYVqc)，这本书对系统学习和深入掌握Activiti/Flowable的用法非常有帮助。
-![深入Activiti流程引擎：核心原理与高阶实战](http://qiniu-flowable.konbai.work/深入Activiti流程引擎cover.jpg)
-
+![深入Activiti流程引擎：核心原理与高阶实战](https://gitee.com/KonBAI-Q/ruoyi-flowable-plus-vuepress/raw/master/imgs/深入Activiti流程引擎cover.jpg)
 
 ## 演示图例
 <table style="width:100%; text-align:center">
