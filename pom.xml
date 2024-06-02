@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.dromara</groupId>
-    <artifactId>ruoyi-flowalbe-plus</artifactId>
+    <artifactId>ruoyi-flowable-plus</artifactId>
     <version>${revision}</version>
 
-    <name>ruoyi-flowalbe-plus</name>
-    <url>https://gitee.com/KonBAI/ruoyi-flowalbe-plus</url>
-    <description>ruoyi-flowalbe-plus多租户管理系统</description>
+    <name>ruoyi-flowable-plus</name>
+    <url>https://gitee.com/KonBAI/ruoyi-flowable-plus</url>
+    <description>ruoyi-flowable-plus多租户管理系统</description>
 
     <properties>
         <revision>0.9.0</revision>
